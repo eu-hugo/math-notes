@@ -19,6 +19,50 @@ $$
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
+---
+factoring formulas
+
+radical rules
+
+exponent rules
+
+log rules
+
+quadratic formula
+
+binomial theorem
+
+area
+
+volume
+
+pythagoras theorem
+
+fundamental theorem
+
+trig identities
+
+trig definitions
+
+angle sum
+
+limits
+
+deruvatives
+
+integrals
+
+determinand 2x2
+
+determinant 3x3
+
+inverse 2x2 
+
+taylor series
+
+geometric series
+
+probability density functions
 
 
 
@@ -31,8 +75,7 @@ $$
 
 
 
-
-------------------
+---
 
 # Markdown syntax guide
 
