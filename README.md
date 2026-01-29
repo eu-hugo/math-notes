@@ -3,6 +3,7 @@
 ## Design Principles
 
 - Notation prioritizes semantic content over symbolic compactness.
+- 
   
 ---
 
