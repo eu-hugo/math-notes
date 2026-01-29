@@ -15,28 +15,6 @@
 ## Derivatives - Dollar sign
 
 $$(x^n)' = n x^{n-1}$$
-
-$$(\sin x)' = \cos x$$
-
-$$(\cos x)' = -\sin x$$
-
-$$(\tan x)' = \sec^2 x$$
-
-$$(e^x)' = e^x$$
-
-$$(\ln x)' = \frac{1}{x}$$
-
-$$(a^x)' = a^x \ln a$$
-
-$$(\sqrt{x})' = \frac{1}{2\sqrt{x}}$$
-
-$$((uv))' = u'v + uv'$$
-
-$$\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}$$
-
-## Derivatives - Dollar sign
-
-$$(x^n)' = n x^{n-1}$$
 $$(\sin x)' = \cos x$$
 $$(\cos x)' = -\sin x$$
 $$(\tan x)' = \sec^2 x$$
