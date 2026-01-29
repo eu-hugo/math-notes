@@ -3,9 +3,10 @@
 ## Design Principles
 
 - Notation prioritizes semantic content over symbolic compactness.
+  
+---
 
 **Convention.** Each formula is presented as a canonical representative of its equivalence class.
-
 
 ---
 
