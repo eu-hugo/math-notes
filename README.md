@@ -1,5 +1,214 @@
 # cheat-sheet
-cheat sheet
+
+---
+
+## Design Principles
+
+- Personal scope: coverage is selective rather than exhaustive.
+- Semantic notation: preference for meaning-explicit expressions over purely symbolic ones.
+- Conceptual clustering: results are grouped by conceptual proximity rather than strict hierarchy.
+
+---
+
+**Convention.** Each formula is given in a canonical form within its equivalence class of expressions.
+
+---
+
+## Derivatives - Dollar sign
+
+$$(x^n)' = n x^{n-1}$$
+
+$$(\sin x)' = \cos x$$
+
+$$(\cos x)' = -\sin x$$
+
+$$(\tan x)' = \sec^2 x$$
+
+$$(e^x)' = e^x$$
+
+$$(\ln x)' = \frac{1}{x}$$
+
+$$(a^x)' = a^x \ln a$$
+
+$$(\sqrt{x})' = \frac{1}{2\sqrt{x}}$$
+
+$$((uv))' = u'v + uv'$$
+
+$$\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}$$
+
+## Derivatives - Dollar sign
+
+$$(x^n)' = n x^{n-1}$$
+$$(\sin x)' = \cos x$$
+$$(\cos x)' = -\sin x$$
+$$(\tan x)' = \sec^2 x$$
+$$(e^x)' = e^x$$
+$$(\ln x)' = \frac{1}{x}$$
+$$(a^x)' = a^x \ln a$$
+$$(\sqrt{x})' = \frac{1}{2\sqrt{x}}$$
+$$((uv))' = u'v + uv'$$
+$$\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}$$
+
+## Derivatives - block
+
+$$
+\begin{aligned}
+(x^n)' &= n x^{n-1} \\
+(\sin x)' &= \cos x \\
+(\cos x)' &= -\sin x \\
+(\tan x)' &= \sec^2 x \\
+(e^x)' &= e^x \\
+(\ln x)' &= \frac{1}{x} \\
+(a^x)' &= a^x \ln a \\
+(\sqrt{x})' &= \frac{1}{2\sqrt{x}} \\
+(uv)' &= u'v + uv' \\
+\left(\frac{u}{v}\right)' &= \frac{u'v - uv'}{v^2}
+\end{aligned}
+$$
+
+## Derivatives
+
+$$
+\begin{aligned}
+(x^n)' &= n x^{n-1} \\
+(\sqrt{x})' &= \frac{1}{2\sqrt{x}}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+(\sin x)' &= \cos x \\
+(\cos x)' &= -\sin x \\
+(\tan x)' &= \sec^2 x
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+(e^x)' &= e^x \\
+(a^x)' &= a^x \ln a \\
+(\ln x)' &= \frac{1}{x}
+\end{aligned}
+$$
+
+$$
+\begin{aligned}
+(uv)' &= u'v + uv' \\
+\left(\frac{u}{v}\right)' &= \frac{u'v - uv'}{v^2}
+\end{aligned}
+$$
+
+
+
+
+
+## Geometry — Areas
+
+$$\text{area(triangle)} = \frac12 \cdot \text{base} \cdot \text{height}$$
+
+$$\text{area(circle)} = \pi \cdot \text{radius}^2$$
+
+$$
+\begin{aligned}
+\text{area(triangle)} &= \frac12 \cdot \text{base} \cdot \text{height} \\
+\text{area(circle)} &= \pi \cdot \text{radius}^2 \\
+\text{area(rectangle)} &= \text{width} \cdot \text{height}
+\end{aligned}
+$$
+
+
+## Geometry — Areas
+
+$$
+\begin{aligned}
+\text{area}(\text{triangle}) &= \frac12 \cdot \text{base} \cdot \text{height} \\
+\text{area}(\text{circle}) &= \pi \cdot \text{radius}^2 \\
+\text{area}(\text{rectangle}) &= \text{width} \cdot \text{height}
+\end{aligned}
+$$
+
+## Volumes
+
+$$\text{volume}(\text{cube}) = s^3$$
+
+$$\text{volume}(\text{cylinder}) = \pi r^2 h$$
+
+$$\text{volume}(\text{sphere}) = \frac{4}{3}\pi r^3$$
+
+## Exponent Laws
+
+$$
+\begin{aligned}
+a^m \cdot a^n &= a^{m+n} \\
+\frac{a^m}{a^n} &= a^{m-n} \\
+(a^m)^n &= a^{mn} \\
+(ab)^n &= a^n b^n \\
+\left(\frac{a}{b}\right)^n &= \frac{a^n}{b^n}
+\end{aligned}
+$$
+
+## Exponent Laws
+
+$$
+\begin{aligned}
+(1)\quad a^m \cdot a^n &= a^{m+n} \\
+(2)\quad \frac{a^m}{a^n} &= a^{m-n} \\
+(3)\quad (a^m)^n &= a^{mn}
+\end{aligned}
+$$
+
+
+
+## Volume
+
+$$
+\begin{aligned}
+\text{cube} &: s^3 \\
+\text{cylinder} &: \pi r^2 h \\
+\text{sphere} &: \frac{4}{3}\pi r^3 \\
+\text{pyramid} &: \frac13 \cdot \text{base area} \cdot h
+\end{aligned}
+$$
+
+## Exponent Laws
+
+1. $$a^m \cdot a^n = a^{m+n}$$
+2. $$\frac{a^m}{a^n} = a^{m-n}$$
+3. $$(a^m)^n = a^{mn}$$
+
+## Vector Space Axioms
+
+1. $$u + v = v + u$$
+2. $$(u + v) + w = u + (v + w)$$
+3. $$\exists 0: v + 0 = v$$
+
+## Gaussian Elimination
+
+1. Swap rows.
+2. Multiply a row by a scalar.
+4. Add a multiple of one row to another.
+
+5. 1. $$\text{area(triangle)} = \frac12 bh$$
+2. $$\text{area(circle)} = \pi r^2$$
+3. $$\text{area(rectangle)} = wh$$
+
+## a
+
+$$a^m a^n = a^{m+n}$$
+$$\frac{a^m}{a^n} = a^{m-n}$$
+$$(a^m)^n = a^{mn}$$
+
+$$
+\begin{aligned}
+a^m a^n &= a^{m+n} \\
+\frac{a^m}{a^n} &= a^{m-n} \\
+(a^m)^n &= a^{mn}
+\end{aligned}
+$$
+
+
+
+
 
 $z = x + y$
 
