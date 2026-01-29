@@ -1,7 +1,5 @@
 # cheat-sheet
 
----
-
 ## Design Principles
 
 - Personal scope: coverage is selective rather than exhaustive.
