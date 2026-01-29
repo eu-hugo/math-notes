@@ -2,13 +2,10 @@
 
 ## Design Principles
 
-- Personal scope: coverage is selective rather than exhaustive.
-- Semantic notation: preference for meaning-explicit expressions over purely symbolic ones.
-- Conceptual clustering: results are grouped by conceptual proximity rather than strict hierarchy.
+- Notation prioritizes semantic content over symbolic compactness.
 
----
+**Convention.** Each formula is presented as a canonical representative of its equivalence class.
 
-**Convention.** Each formula is given in a canonical form within its equivalence class of expressions.
 
 ---
 
