@@ -11,7 +11,85 @@
 
 ---
 
-## Derivatives - Dollar sign
+## Equations of a line
+
+Slope–Intercept Form
+
+$$
+y = mx + b
+$$
+
+Point–Slope Form
+
+$$y - y_1 = m(x - x_1)$$
+
+Two–Point Form
+
+$$
+y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)
+$$
+
+Standard (General) Form
+
+$$Ax + By + C = 0$$
+$$Ax + By = C$$
+
+Intercept Form
+
+$$
+\frac{x}{a} + \frac{y}{b} = 1
+$$
+
+Symmetric Form (2D)
+
+$$
+\frac{x - x_1}{a} = \frac{y - y_1}{b}
+$$
+
+Parametric Form
+
+$$
+\begin{cases}
+x = x_0 + at \\
+y = y_0 + bt
+\end{cases}
+$$
+
+Vector Form
+
+$$
+\mathbf{r}(t) = \mathbf{r}_0 + t\mathbf{v}
+$$
+
+Explicitly,
+
+$$
+\begin{pmatrix}
+x \\
+y
+\end{pmatrix}
+=
+\begin{pmatrix}
+x_0 \\
+y_0
+\end{pmatrix}
++
+t
+\begin{pmatrix}
+a \\
+b
+\end{pmatrix}
+$$
+
+
+
+Normal (Hesse) Form
+
+$$
+x\cos\theta + y\sin\theta = p
+$$
+
+## Derivatives
 
 $$(x^n)' = n x^{n-1}$$
 $$(\sin x)' = \cos x$$
