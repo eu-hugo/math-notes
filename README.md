@@ -16,12 +16,14 @@
 Slope–Intercept Form
 
 $$
-y = mx + b
+y = \text{(slope)}x + \text{(y-intercept)}
 $$
 
 Point–Slope Form
 
-$$y - y_1 = m(x - x_1)$$
+$$
+y - y_1 = \text{(slope)}(x - x_1)
+$$
 
 Two–Point Form
 
@@ -31,8 +33,9 @@ $$
 
 Standard (General) Form
 
-$$Ax + By + C = 0$$
-$$Ax + By = C$$
+$$
+Ax + By + C = 0
+$$
 
 Intercept Form
 
@@ -61,27 +64,21 @@ $$
 \mathbf{r}(t) = \mathbf{r}_0 + t\mathbf{v}
 $$
 
-Explicitly,
+explicitly,
 
 $$
 \begin{pmatrix}
 x \\
 y
 \end{pmatrix}
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 x_0 \\
 y_0
-\end{pmatrix}
-+
-t
-\begin{pmatrix}
+\end{pmatrix} + t \begin{pmatrix}
 a \\
 b
 \end{pmatrix}
 $$
-
-
 
 Normal (Hesse) Form
 
@@ -91,69 +88,45 @@ $$
 
 ## Derivatives
 
-$$(x^n)' = n x^{n-1}$$
-$$(\sin x)' = \cos x$$
-$$(\cos x)' = -\sin x$$
-$$(\tan x)' = \sec^2 x$$
-$$(e^x)' = e^x$$
-$$(\ln x)' = \frac{1}{x}$$
-$$(a^x)' = a^x \ln a$$
-$$(\sqrt{x})' = \frac{1}{2\sqrt{x}}$$
-$$((uv))' = u'v + uv'$$
-$$\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}$$
-
-## Derivatives - block
-
 $$
-\begin{aligned}
-(x^n)' &= n x^{n-1} \\
-(\sin x)' &= \cos x \\
-(\cos x)' &= -\sin x \\
-(\tan x)' &= \sec^2 x \\
-(e^x)' &= e^x \\
-(\ln x)' &= \frac{1}{x} \\
-(a^x)' &= a^x \ln a \\
-(\sqrt{x})' &= \frac{1}{2\sqrt{x}} \\
-(uv)' &= u'v + uv' \\
-\left(\frac{u}{v}\right)' &= \frac{u'v - uv'}{v^2}
-\end{aligned}
-$$
-
-## Derivatives
-
-$$
-\begin{aligned}
-(x^n)' &= n x^{n-1} \\
-(\sqrt{x})' &= \frac{1}{2\sqrt{x}}
-\end{aligned}
+(x^n)' = n x^{n-1}
 $$
 
 $$
-\begin{aligned}
-(\sin x)' &= \cos x \\
-(\cos x)' &= -\sin x \\
-(\tan x)' &= \sec^2 x
-\end{aligned}
+(\sin x)' = \cos x
 $$
 
 $$
-\begin{aligned}
-(e^x)' &= e^x \\
-(a^x)' &= a^x \ln a \\
-(\ln x)' &= \frac{1}{x}
-\end{aligned}
+(\cos x)' = -\sin x
 $$
 
 $$
-\begin{aligned}
-(uv)' &= u'v + uv' \\
-\left(\frac{u}{v}\right)' &= \frac{u'v - uv'}{v^2}
-\end{aligned}
+(\tan x)' = \sec^2 x
 $$
 
+$$
+(e^x)' = e^x
+$$
 
+$$
+(\ln x)' = \frac{1}{x}
+$$
 
+$$
+(a^x)' = a^x \ln a
+$$
 
+$$
+(\sqrt{x})' = \frac{1}{2\sqrt{x}}
+$$
+
+$$
+(uv)' = u'v + uv'
+$$
+
+$$
+\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}
+$$
 
 ## Geometry — Areas
 
