@@ -3,7 +3,7 @@
 ## Design Principles
 
 - Notation prioritizes explicit description.
-- 2
+- .
   
 ---
 
@@ -11,7 +11,9 @@
 
 ---
 
-## Links
+## Table of contents
+
+[Useful](#useful)
 
 [I Foundations](#part-i-foundations)
 
@@ -24,6 +26,33 @@
 [V Discrete Mathematics](#part-v-discrete-mathematics)
 
 [VI Applied Mathematics](#part-vi-applied-mathematics)
+
+# Useful
+
+* Multiplication table
+
+| ×  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 2  |    |    |    |    |    |    |    |    |    | 24 | 26 | 28 | 30 | 32 | 34 | 36 | 38 |    |
+| 3  |    |    |    |    |    |    |    |    |    | 36 | 39 | 42 | 45 | 48 | 51 | 54 | 57 |    |
+| 4  |    |    |    |    |    |    |    |    |    | 48 | 52 | 56 | 60 | 64 | 68 | 72 | 76 |    |
+| 5  |    |    |    |    |    |    |    |    |    | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 |    |
+| 6  |    |    |    |    |    |    |    |    |    | 72 | 78 | 84 | 90 | 96 | 102 | 108 | 114 |     |
+| 7  |    |    |    |    |    |    |    |    |    | 84 | 91 | 98 | 105 | 112 | 119 | 126 | 133 |     |
+| 8  |    |    |    |    |    |    |    |    |    | 96 | 104 | 112 | 120 | 128 | 136 | 144 | 152 |     |
+| 9  |    |    |    |    |    |    |    |    |    | 108 | 117 | 126 | 135 | 144 | 153 | 162 | 171 |     |
+| 10 |    |    |    |    |    |    |    |    |    | 120 | 130 | 140 | 150 | 160 | 170 | 180 | 190 |     |
+| 11 |    |    |    |    |    |    |    |    |    | 132 | 143 | 154 | 165 | 176 | 187 | 198 | 209 |     |
+| 12 | 36 | 48 | 60 | 72 | 84 | 96 | 108 |    | 132 | 144 |    |    |    |    |    |    |    |    |
+| 13 | 39 | 52 | 65 | 78 | 91 | 104 | 117 |    | 143 |    | 169 |    |    |    |    |    |    |    |
+| 14 | 42 | 56 | 70 | 84 | 98 | 112 | 126 |    | 154 |    |    | 196 |    |    |    |    |    |    |
+| 15 | 45 | 60 | 75 | 90 | 105 | 120 | 135 |    | 165 |    |    |    | 225 |    |    |    |    |    |
+| 16 | 48 | 64 | 80 | 96 | 112 | 128 | 144 |    | 176 |    |    |    |    | 256 |    |    |    |    |
+| 17 | 51 | 68 | 85 | 102 | 119 | 136 | 153 |    | 187 |    |    |    |    |    | 289 |    |    |    |
+| 18 | 54 | 72 | 90 | 108 | 126 | 144 | 162 |    | 198 |    |    |    |    |    |    | 324 |    |    |
+| 19 | 57 | 76 | 95 | 114 | 133 | 152 | 171 |    | 209 |    |    |    |    |    |    |    | 361 |    |
+| 20 | 60 | 80 | 100 | 120 | 140 | 160 | 180 |    | 220 |    |    |    |    |    |    |    |    | 400 |
+
 
 # Part I Foundations
 
@@ -97,6 +126,47 @@
 #### Continuity and Discontinuity
 ### Differential Calculus
 #### Derivatives
+
+  $$
+  (x^n)' = n x^{n-1}
+  $$
+
+  $$
+  (\sin x)' = \cos x
+  $$
+
+  $$
+  (\cos x)' = -\sin x
+  $$
+
+  $$
+  (\tan x)' = \sec^2 x
+  $$
+
+  $$
+  (e^x)' = e^x
+  $$
+
+  $$
+  (\ln x)' = \frac{1}{x}
+  $$
+
+  $$
+  (a^x)' = a^x \ln a
+  $$
+
+  $$
+  (\sqrt{x})' = \frac{1}{2\sqrt{x}}
+  $$
+
+  $$
+  (uv)' = u'v + uv'
+  $$
+
+  $$
+  \left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}
+  $$
+
 ##### Chain Rule
 ###### Higher Order Derivatives
 #### Mean Value Theorem
@@ -142,8 +212,6 @@
 #### Polyhedra
 #### Curved Solids
 ## Analytic Geometry
-### Coordinate Systems
-
 * Equations of a line
 
   * Slope–Intercept Form
@@ -163,7 +231,6 @@
   $$
   y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1), \\quad P_1 = (x_1,y_1) \text{ and } P_2 = (x_2,y_2)
   $$
-
 
   * Standard (General) Form
 
@@ -218,6 +285,8 @@
   x \cos \theta + y \sin \theta = p
   $$
   
+
+### Coordinate Systems
 ### Conic Sections
 ## Algebraic Geometry
 ### Affine and Projective Varieties
@@ -277,89 +346,6 @@
 
 
 
-
-
-
-
-
-
-
-## Equations of a line
-
-Slope–Intercept Form
-
-$$
-y = \text{(slope)}x + \text{(y-intercept)}
-$$
-
-Point–Slope Form
-
-$$
-y - y_1 = \text{(slope)}(x - x_1), \\quad P_1 = (x_1,y_1)
-$$
-
-Two–Point Form
-
-$$
-y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1), \\quad P_1 = (x_1,y_1) \text{ and } P_2 = (x_2,y_2)
-$$
-
-
-Standard (General) Form
-
-$$
-Ax + By + C = 0
-$$
-
-Intercept Form
-
-$$
-\frac{x}{a} + \frac{y}{b} = 1
-$$
-
-Symmetric Form (2D)
-
-$$
-\frac{x - x_1}{a} = \frac{y - y_1}{b}
-$$
-
-Parametric Form
-
-$$
-\begin{cases}
-x = x_0 + at \\
-y = y_0 + bt
-\end{cases}
-$$
-
-Vector Form
-
-$$
-\mathbf{r}(t) = \mathbf{r}_0 + t\mathbf{v}
-$$
-
-explicitly,
-
-$$
-\begin{pmatrix}
-x \\
-y
-\end{pmatrix}
-= \begin{pmatrix}
-x_0 \\
-y_0
-\end{pmatrix} + t \begin{pmatrix}
-a \\
-b
-\end{pmatrix}
-$$
-
-Normal (Hesse) Form
-
-$$
-x\cos\theta + y\sin\theta = p
-$$
-
 ## Pythagorean Theorem
 
 $$
@@ -370,73 +356,6 @@ $$
 \text{distance between 2 points} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 $$
 
-## Multiplication table
-
-| ×  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-| 2  |    |    |    |    |    |    |    |    |    | 24 | 26 | 28 | 30 | 32 | 34 | 36 | 38 |    |
-| 3  |    |    |    |    |    |    |    |    |    | 36 | 39 | 42 | 45 | 48 | 51 | 54 | 57 |    |
-| 4  |    |    |    |    |    |    |    |    |    | 48 | 52 | 56 | 60 | 64 | 68 | 72 | 76 |    |
-| 5  |    |    |    |    |    |    |    |    |    | 60 | 65 | 70 | 75 | 80 | 85 | 90 | 95 |    |
-| 6  |    |    |    |    |    |    |    |    |    | 72 | 78 | 84 | 90 | 96 | 102 | 108 | 114 |     |
-| 7  |    |    |    |    |    |    |    |    |    | 84 | 91 | 98 | 105 | 112 | 119 | 126 | 133 |     |
-| 8  |    |    |    |    |    |    |    |    |    | 96 | 104 | 112 | 120 | 128 | 136 | 144 | 152 |     |
-| 9  |    |    |    |    |    |    |    |    |    | 108 | 117 | 126 | 135 | 144 | 153 | 162 | 171 |     |
-| 10 |    |    |    |    |    |    |    |    |    | 120 | 130 | 140 | 150 | 160 | 170 | 180 | 190 |     |
-| 11 |    |    |    |    |    |    |    |    |    | 132 | 143 | 154 | 165 | 176 | 187 | 198 | 209 |     |
-| 12 | 36 | 48 | 60 | 72 | 84 | 96 | 108 |    | 132 | 144 |    |    |    |    |    |    |    |    |
-| 13 | 39 | 52 | 65 | 78 | 91 | 104 | 117 |    | 143 |    | 169 |    |    |    |    |    |    |    |
-| 14 | 42 | 56 | 70 | 84 | 98 | 112 | 126 |    | 154 |    |    | 196 |    |    |    |    |    |    |
-| 15 | 45 | 60 | 75 | 90 | 105 | 120 | 135 |    | 165 |    |    |    | 225 |    |    |    |    |    |
-| 16 | 48 | 64 | 80 | 96 | 112 | 128 | 144 |    | 176 |    |    |    |    | 256 |    |    |    |    |
-| 17 | 51 | 68 | 85 | 102 | 119 | 136 | 153 |    | 187 |    |    |    |    |    | 289 |    |    |    |
-| 18 | 54 | 72 | 90 | 108 | 126 | 144 | 162 |    | 198 |    |    |    |    |    |    | 324 |    |    |
-| 19 | 57 | 76 | 95 | 114 | 133 | 152 | 171 |    | 209 |    |    |    |    |    |    |    | 361 |    |
-| 20 | 60 | 80 | 100 | 120 | 140 | 160 | 180 |    | 220 |    |    |    |    |    |    |    |    | 400 |
-
-
-
-## Derivatives
-
-$$
-(x^n)' = n x^{n-1}
-$$
-
-$$
-(\sin x)' = \cos x
-$$
-
-$$
-(\cos x)' = -\sin x
-$$
-
-$$
-(\tan x)' = \sec^2 x
-$$
-
-$$
-(e^x)' = e^x
-$$
-
-$$
-(\ln x)' = \frac{1}{x}
-$$
-
-$$
-(a^x)' = a^x \ln a
-$$
-
-$$
-(\sqrt{x})' = \frac{1}{2\sqrt{x}}
-$$
-
-$$
-(uv)' = u'v + uv'
-$$
-
-$$
-\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}
-$$
 
 ## Geometry — Areas
 
@@ -493,8 +412,6 @@ $$
 \end{aligned}
 $$
 
-
-
 ## Volume
 
 $$
@@ -528,21 +445,9 @@ $$
 2. $$\text{area(circle)} = \pi r^2$$
 3. $$\text{area(rectangle)} = wh$$
 
-## a
-
-$$a^m a^n = a^{m+n}$$
-$$\frac{a^m}{a^n} = a^{m-n}$$
-$$(a^m)^n = a^{mn}$$
-
-$$
-\begin{aligned}
-a^m a^n &= a^{m+n} \\
-\frac{a^m}{a^n} &= a^{m-n} \\
-(a^m)^n &= a^{mn}
-\end{aligned}
-$$
-
 ---
+
+TODO
 
 factoring formulas
 
@@ -587,88 +492,5 @@ taylor series
 geometric series
 
 probability density functions
-
-
-
-
----
-
-
-[Design Principles](#design-principles)
-
-
----
-
-# Markdown syntax guide
-
-## Lists
-
-### Unordered
-
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
-    * Item 3a
-        * Item 3 a a
-            * Item 3 a a
-    * Item 3b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-    1. Item 3a
-    2. Item 3b
-
-## Headers
-
-# This is a Heading h1
-## This is a Heading h2
-###### This is a Heading h6
-
-## Emphasis
-
-*This text will be italic*  
-_This will also be italic_
-
-**This text will be bold**  
-__This will also be bold__
-
-_You **can** combine them_
-
-
-
-## Images
-
-![This is an alt text.](/image/Markdown-mark.svg "This is a sample image.")
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
->> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-
-## Tables
-
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
-
-## Blocks of code
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
-## Inline code
 
 This web site is using `markedjs/marked`.
