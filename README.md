@@ -11,8 +11,253 @@
 
 ---
 
+# Part I Foundations
+
+## Set Theory 
+### Basic Concepts
+#### Operations
+##### Unions and Intersections
+###### De Morgan's Laws
+### Relations and Functions 
+### Cardinality 
+#### Countable and Uncountable Sets
+## Logic
+### Propositional Logic
+### Predicate Logic
+### Proof Systems
+#### Induction
+### Model Theory
+
+# Part II Algebra
+
+## Elementary Algebra
+### Numbers and Operations
+#### Complex Numbers
+##### Euler's Identity
+### Polynomials
+#### Roots
+##### Fundamental Theorem of Algebra
+###### Complex Conjugate Roots
+## Linear Algebra
+### Vectors and Spaces
+### Matrices and Determinants
+#### Matrix Operations
+##### Multiplication
+###### Non-commutativity
+#### Rank and Nullity
+### Linear Transformations
+### Eigenvalues and Eigenvectors
+#### Spectral Theorem
+## Abstract Algebra
+### Groups
+#### Geometric and Combinatorial Group Theory
+### Rings
+### Fields
+### Galois Theory
+### Representation Theory
+#### Character Theory
+## Category Theory
+### Categories, Functors, and Natural Transformations
+### Limits and Colimits
+### Adjunctions
+## Number Theory
+### Divisibility
+#### Euclidean Algorithm
+#### Diophantine Equations
+### Primes
+#### Distribution of Primes
+### Modular Arithmetic
+#### Chinese Remainder Theorem
+### Algebraic Number Theory
+### Analytic Number Theory
+### Computational Number Theory
+### Applications
+#### Cryptography (RSA, Diffie-Hellman)
+
+# Part III Analysis
+
+## Calculus
+### Limits and Continuity
+#### The Limit Laws
+#### Epsilon-Delta Definition
+#### Continuity and Discontinuity
+### Differential Calculus
+#### Derivatives
+##### Chain Rule
+###### Higher Order Derivatives
+#### Mean Value Theorem
+### Integral Calculus
+#### Riemann Sums
+#### Fundamental Theorem of Calculus
+### Sequences and Series
+#### Convergence Tests
+#### Taylor and Maclaurin Series
+## Multivariable and Vector Calculus
+### Partial Derivatives
+### Vector Fields
+#### Gradient, Divergence, and Curl
+### Line and Surface Integrals
+#### Stokes' Theorem and Divergence Theorem
+## Real Analysis
+### Metric Spaces
+### Continuity and Convergence
+### Measure Theory
+## Complex Analysis
+### Analyticity
+#### Cauchy-Riemann Equations
+### Residues
+## Fourier Analysis
+### Fourier Series
+### Fourier Transforms
+### Harmonic Analysis
+## Functional Analysis
+### Hilbert and Banach Spaces
+### Operator Theory
+## Differential Equations
+### Ordinary Differential Equations (ODEs)
+### Partial Differential Equations (PDEs)
+## Dynamical Systems
+
+# Part IV Geometry
+
+## Euclidean Geometry
+### Plane Geometry (2D)
+#### Polygons
+#### Curves
+### Solid Geometry (3D)
+#### Polyhedra
+#### Curved Solids
+## Analytic Geometry
+### Coordinate Systems
+
+* Equations of a line
+
+  * Slope–Intercept Form
+
+  $$
+  y = \text{(slope)}x + \text{(y-intercept)}
+  $$
+
+  * Point–Slope Form
+
+  $$
+  y - y_1 = \text{(slope)}(x - x_1), \\quad P = (x_1,y_1)
+  $$
+
+  * Two–Point Form
+
+  $$
+  y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1), \\quad P_1 = (x_1,y_1) \text{ and } P_2 = (x_2,y_2)
+  $$
 
 
+  * Standard (General) Form
+
+  $$
+  Ax + By + C = 0
+  $$
+
+  * Intercept Form
+
+  $$
+  \frac{x}{a} + \frac{y}{b} = 1
+  $$
+
+  * Symmetric Form (2D)
+
+  $$
+  \frac{x - x_1}{a} = \frac{y - y_1}{b}
+  $$
+
+  * Parametric Form
+
+  $$
+  \begin{cases}
+  x = x_0 + at \\
+  y = y_0 + bt
+  \end{cases}
+  $$
+
+  * Vector Form
+
+  $$
+  \mathbf{r}(t) = \mathbf{r}_0 + t\mathbf{v}
+  $$
+
+  $$
+  \begin{pmatrix}
+  x \\
+  y
+  \end{pmatrix}
+  = \begin{pmatrix}
+  x_0 \\
+  y_0
+  \end{pmatrix} + t \begin{pmatrix}
+  a \\
+  b
+  \end{pmatrix}
+  $$
+
+  * Normal (Hesse) Form
+
+  $$
+  x \cos \theta + y \sin \theta = p
+  $$
+  
+### Conic Sections
+## Algebraic Geometry
+### Affine and Projective Varieties
+### Schemes and Sheaves
+## Arithmetic Geometry
+### Moduli Spaces
+## Differential Geometry
+### Manifolds
+### Riemannian Geometry
+#### Metric Tensors
+##### Curvature (Ricci, Riemann)
+## Topology
+### Point-Set Topology
+#### Compactness and Connectedness
+### Algebraic Topology
+#### Fundamental Groups (Homotopy)
+#### Homology and Cohomology
+#### Betti Numbers
+### Differential Topology
+#### Smooth Manifolds
+#### Transversality and Cobordism
+## High-Dimensional and Probabilistic Geometry
+### Concentration of Measure
+
+# Part V Discrete Mathematics
+
+## Combinatorics
+### Counting Principles
+### Generating Functions
+### Enumerative Combinatorics
+### Algebraic Combinatorics
+### Extremal Combinatorics
+### Probabilistic Combinatorics
+## Graph Theory
+### Connectivity
+### Paths and Cycles
+### Trees and Spanning Trees
+## Discrete Structures
+### Posets and Lattices
+
+# Part VI Applied Mathematics
+
+## Probability and Statistics
+### Probability Theory
+#### Bayesian vs Frequentist
+### Statistics
+### Stochastic Processes
+## Numerical Analysis
+### Root Finding
+### Numerical Linear Algebra
+## Operations Research
+### Linear Programming
+### Game Theory
+### Mathematical Modeling
 
 
 
@@ -283,29 +528,8 @@ a^m a^n &= a^{m+n} \\
 \end{aligned}
 $$
 
-
-
-
-
-$z = x + y$
-
-$$\sum_{i=1}^{n} i = \frac{n(n+1)}{2}$$
-
-Example: $a^2 + b^2 = c^2$
-
-Example: 
-
-$$\frac{n!}{k!(n-k)!}$$
-
-Inline math looks like this: $E=mc^2$.
-
-A block equation for the Cauchy-Schwarz inequality:
-
-$$
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-$$
-
 ---
+
 factoring formulas
 
 radical rules
@@ -363,6 +587,27 @@ probability density functions
 
 # Markdown syntax guide
 
+## Lists
+
+### Unordered
+
+* Item 1
+* Item 2
+* Item 2a
+* Item 2b
+    * Item 3a
+        * Item 3 a a
+            * Item 3 a a
+    * Item 3b
+
+### Ordered
+
+1. Item 1
+2. Item 2
+3. Item 3
+    1. Item 3a
+    2. Item 3b
+
 ## Headers
 
 # This is a Heading h1
@@ -379,24 +624,7 @@ __This will also be bold__
 
 _You **can** combine them_
 
-## Lists
 
-### Unordered
-
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
-    * Item 3a
-    * Item 3b
-
-### Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-    1. Item 3a
-    2. Item 3b
 
 ## Images
 
