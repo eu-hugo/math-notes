@@ -13,7 +13,7 @@
 
 ## Table of contents
 
-[Quick lookup](#quick-lookup)
+[Quick Lookup](#quick-lookup)
 
 [Foundations](#part-i-foundations)
 
@@ -27,7 +27,7 @@
 
 [Applied Mathematics](#part-vi-applied-mathematics)
 
-# Quick lookup
+# Quick Lookup
 
 ## Times table
 
@@ -319,20 +319,27 @@ probability density functions
 
 # Part I Foundations
 
-## Set Theory 
+## Set Theory
 ### Basic Concepts
-#### Operations
-##### Unions and Intersections
-###### De Morgan's Laws
-### Relations and Functions 
-### Cardinality 
+#### Operations (Unions, Intersections)
+### Relations and Functions
+### Cardinality
 #### Countable and Uncountable Sets
+#### Cantor's Diagonal Argument
+### Axiomatic Set Theory
+#### ZFC Axioms
+
 ## Logic
 ### Propositional Logic
 ### Predicate Logic
 ### Proof Systems
 #### Induction
+#### Contradiction
 ### Model Theory
+### Computability Theory
+#### Turing Machines
+#### The Halting Problem
+### Gödel's Incompleteness Theorems
 
 # Part II Algebra
 
@@ -341,151 +348,171 @@ probability density functions
 #### Complex Numbers
 ##### Euler's Identity
 ### Polynomials
-#### Roots
-##### Fundamental Theorem of Algebra
-###### Complex Conjugate Roots
+#### Fundamental Theorem of Algebra
+
 ## Linear Algebra
-### Vectors and Spaces
+### Vector Spaces
 ### Matrices and Determinants
-#### Matrix Operations
-##### Multiplication
-###### Non-commutativity
-#### Rank and Nullity
+#### Rank, Nullity, and Trace
 ### Linear Transformations
 ### Eigenvalues and Eigenvectors
 #### Spectral Theorem
+### Matrix Factorizations
+#### Singular Value Decomposition (SVD)
+
 ## Abstract Algebra
 ### Groups
-#### Geometric and Combinatorial Group Theory
-### Rings
+#### Symmetry and Permutation Groups
+#### Group Homomorphisms
+### Rings and Ideals
 ### Fields
 ### Galois Theory
 ### Representation Theory
-#### Character Theory
+### Homological Algebra
+
 ## Category Theory
 ### Categories, Functors, and Natural Transformations
 ### Limits and Colimits
 ### Adjunctions
+### Yoneda Lemma
+
 ## Number Theory
 ### Divisibility
 #### Euclidean Algorithm
-#### Diophantine Equations
 ### Primes
-#### Distribution of Primes
+#### Prime Number Theorem
+#### Riemann Hypothesis
 ### Modular Arithmetic
 #### Chinese Remainder Theorem
+#### Fermat's Little Theorem
 ### Algebraic Number Theory
 ### Analytic Number Theory
-### Computational Number Theory
-### Applications
-#### Cryptography (RSA, Diffie-Hellman)
+### Cryptography
+#### RSA
+#### Elliptic Curves
 
 # Part III Analysis
 
 ## Calculus
 ### Limits and Continuity
-#### The Limit Laws
 #### Epsilon-Delta Definition
-#### Continuity and Discontinuity
 ### Differential Calculus
-#### Derivatives
-##### Chain Rule
-###### Higher Order Derivatives
 #### Mean Value Theorem
 ### Integral Calculus
-#### Riemann Sums
 #### Fundamental Theorem of Calculus
 ### Sequences and Series
 #### Convergence Tests
-#### Taylor and Maclaurin Series
+#### Taylor and Fourier Series
+
 ## Multivariable and Vector Calculus
 ### Partial Derivatives
-### Vector Fields
-#### Gradient, Divergence, and Curl
-### Line and Surface Integrals
-#### Stokes' Theorem and Divergence Theorem
+### Gradients and Directional Derivatives
+### Multiple Integrals
+### Vector Calculus
+#### Divergence, Gradient, and Curl
+#### Stokes', Green's, and Divergence Theorems
+
 ## Real Analysis
 ### Metric Spaces
-### Continuity and Convergence
+### Topology of R^n
 ### Measure Theory
+#### Lebesgue Integration
+#### Lp Spaces
+### Convergence Types (Pointwise vs Uniform)
+
 ## Complex Analysis
 ### Analyticity
 #### Cauchy-Riemann Equations
-### Residues
-## Fourier Analysis
-### Fourier Series
-### Fourier Transforms
-### Harmonic Analysis
+### Cauchy's Integral Formula
+### Residues and Poles
+### Conformal Mapping
+
 ## Functional Analysis
 ### Hilbert and Banach Spaces
 ### Operator Theory
+### Distributions (Generalized Functions)
+
 ## Differential Equations
 ### Ordinary Differential Equations (ODEs)
 ### Partial Differential Equations (PDEs)
-## Dynamical Systems
+#### Heat, Wave, and Laplace Equations
+### Dynamical Systems
+#### Chaos Theory
 
 # Part IV Geometry
 
-## Euclidean Geometry
-### Plane Geometry (2D)
-#### Polygons
-#### Curves
-### Solid Geometry (3D)
-#### Polyhedra
-#### Curved Solids
+## Classical Geometry
+### Euclidean Geometry
+### Non-Euclidean Geometry
+#### Hyperbolic Geometry
+#### Elliptic Geometry
+
 ## Analytic Geometry
 ### Coordinate Systems
 ### Conic Sections
-## Algebraic Geometry
-### Affine and Projective Varieties
-### Schemes and Sheaves
-## Arithmetic Geometry
-### Moduli Spaces
+
 ## Differential Geometry
 ### Manifolds
+### Tensors
 ### Riemannian Geometry
-#### Metric Tensors
-##### Curvature (Ricci, Riemann)
+#### Curvature (Ricci, Riemann)
+#### Geodesics
+### Symplectic Geometry
+
+## Algebraic Geometry
+### Varieties and Schemes
+### Sheaves and Cohomology
+
 ## Topology
 ### Point-Set Topology
 #### Compactness and Connectedness
+#### Hausdorff Spaces
 ### Algebraic Topology
 #### Fundamental Groups (Homotopy)
 #### Homology and Cohomology
-#### Betti Numbers
+### Knot Theory
 ### Differential Topology
-#### Smooth Manifolds
-#### Transversality and Cobordism
-## High-Dimensional and Probabilistic Geometry
-### Concentration of Measure
 
 # Part V Discrete Mathematics
 
 ## Combinatorics
 ### Counting Principles
 ### Generating Functions
-### Enumerative Combinatorics
-### Algebraic Combinatorics
-### Extremal Combinatorics
-### Probabilistic Combinatorics
-## Graph Theory
-### Connectivity
-### Paths and Cycles
-### Trees and Spanning Trees
+### Graph Theory
+#### Paths, Cycles, and Connectivity
+#### Planarity and Coloring
+#### Trees
+### Ramsey Theory
+
 ## Discrete Structures
 ### Posets and Lattices
+### Complexity Theory
+#### P vs NP
 
 # Part VI Applied Mathematics
 
 ## Probability and Statistics
 ### Probability Theory
-#### Bayesian vs Frequentist
+#### Law of Large Numbers
+#### Central Limit Theorem
 ### Statistics
+#### Hypothesis Testing
+#### Regression Analysis
 ### Stochastic Processes
+#### Markov Chains
+#### Brownian Motion
+
+## Information Theory
+### Shannon Entropy
+### Coding Theory
+
 ## Numerical Analysis
 ### Root Finding
-### Numerical Linear Algebra
-## Operations Research
+### Numerical Integration/Differentiation
+### Monte Carlo Methods
+
+## Optimization
 ### Linear Programming
+### Convex Optimization
 ### Game Theory
-### Mathematical Modeling
+#### Nash Equilibrium
