@@ -11,6 +11,20 @@
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Equations of a line
 
 Slope–Intercept Form
@@ -339,12 +353,10 @@ probability density functions
 
 
 
+---
 
 
-
-
-
-
+[Design Principles](#design-principles)
 
 
 ---
