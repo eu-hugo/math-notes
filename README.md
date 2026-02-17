@@ -2,23 +2,28 @@
 
 ## Design Principles
 
-- Notation prioritizes semantic content over symbolic compactness.
-- 
+- Notation prioritizes explicit description.
+- 2
   
 ---
 
-**Convention.** Each formula is presented as a canonical representative of its equivalence class.
+**Convention.** Each formula is given as a canonical representative of its equivalence class.
 
 ---
 
 ## Links
 
-[I Foundations] (#part-i-foundations)
-II Algebra ()
-III Analysis ()
-IV Geometry
-V Discrete Mathematics
-VI Applied Mathematics
+[I Foundations](#part-i-foundations)
+
+[II Algebra](#part-ii-algebra)
+
+[III Analysis](#part-iii-analysis)
+
+[IV Geometry](#part-iv-geometry)
+
+[V Discrete Mathematics](#part-v-discrete-mathematics)
+
+[VI Applied Mathematics](#part-vi-applied-mathematics)
 
 # Part I Foundations
 
