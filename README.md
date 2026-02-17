@@ -11,6 +11,15 @@
 
 ---
 
+## Links
+
+[I Foundations] (#part-i-foundations)
+II Algebra ()
+III Analysis ()
+IV Geometry
+V Discrete Mathematics
+VI Applied Mathematics
+
 # Part I Foundations
 
 ## Set Theory 
