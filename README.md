@@ -1,9 +1,9 @@
-# cheat-sheet
+# my-toolbox
 
 ## Design Principles
 
 - Notation prioritizes clarity and explicit description.
-- .
+- ...
   
 ---
 
