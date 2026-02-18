@@ -1,9 +1,11 @@
-# my-toolbox
+(Under construction... Still making editorial choices.) 
 
-## Design Principles
+# Design Principles
 
 - Notation prioritizes clarity and explicit description.
-- ...
+- Headings h1-h6 and unordered lists for hierarchy.
+- h1-h2 capitalized
+- More math notation, less english
   
 ---
 
@@ -29,7 +31,7 @@
 
 # Quick Lookup
 
-## Times table
+## Times Table
 
 | ×  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
@@ -53,9 +55,7 @@
 | 19 | 57 | 76 | 95 | 114 | 133 | 152 | 171 |    | 209 |    |    |    |    |    |    |    | 361 |    |
 | 20 | 60 | 80 | 100 | 120 | 140 | 160 | 180 |    | 220 |    |    |    |    |    |    |    |    | 400 |
 
-## Similar triangles
-
-### Definition
+## Similar Triangles
 
 $$
 \triangle ABC \sim \triangle DEF \iff \angle A = \angle D, \angle B = \angle E, \angle C = \angle F.
@@ -65,27 +65,26 @@ $$
 \triangle ABC \sim \triangle DEF \Rightarrow \exists \text{(scale factor)}>0 \text{such that} \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} = \text{(scale factor)}
 $$
 
-## Similarity Criteria
+### Criteria
 
-### Angle angle
-
-$$
-\angle A = \angle D, \angle B = \angle E \Rightarrow \triangle ABC \sim \triangle DEF
-$$
-
-### Side angle side
+#### AA (angle angle)
 
 $$
-\frac{AB}{DE} = \frac{AC}{DF}, \quad \angle A = \angle D \Rightarrow \triangle ABC \sim \triangle DEF
+\triangle ABC \sim \triangle DEF \iff \left( \angle A = \angle D, \angle B = \angle E \right)
 $$
 
-### Side side side
+#### SAS (side angle side)
 
 $$
-\frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} \Rightarrow \triangle ABC \sim \triangle DEF
+\triangle ABC \sim \triangle DEF \iff \left( \frac{AB}{DE} = \frac{AC}{DF}, \angle A = \angle D \right)
 $$
 
-## Scale Factor
+#### SSS (side side side)
+$$
+\triangle ABC \sim \triangle DEF \iff \left( \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} \right)
+$$
+
+### Scale Factor
 
 $$
 \text{perimeter}(\triangle ABC) = \text{(scale factor)} \cdot \text{perimeter}(\triangle DEF) 
@@ -95,15 +94,15 @@ $$
 \text{area}(\triangle ABC) = \text{(scale factor)}^2 \cdot \text{area}(\triangle DEF)
 $$
 
-### Special Right Triangles
+## Special Right Triangles
 
-#### 45-45-90 side ratio
+### 45-45-90 side ratio
 
 $$
 1 : 1 : \sqrt{2}
 $$
 
-#### 30-60-90 side ratio
+### 30-60-90 side ratio
 
 $$
 1 : \sqrt{3} : 2
