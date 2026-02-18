@@ -2,7 +2,7 @@
 
 ## Design Principles
 
-- Notation prioritizes explicit description.
+- Notation prioritizes clarity and explicit description.
 - .
   
 ---
@@ -52,6 +52,84 @@
 | 18 | 54 | 72 | 90 | 108 | 126 | 144 | 162 |    | 198 |    |    |    |    |    |    | 324 |    |    |
 | 19 | 57 | 76 | 95 | 114 | 133 | 152 | 171 |    | 209 |    |    |    |    |    |    |    | 361 |    |
 | 20 | 60 | 80 | 100 | 120 | 140 | 160 | 180 |    | 220 |    |    |    |    |    |    |    |    | 400 |
+
+## Similar triangles
+
+### Definition
+
+$$
+\triangle ABC \sim \triangle DEF \iff \angle A = \angle D, \angle B = \angle E, \angle C = \angle F.
+$$
+
+$$
+\triangle ABC \sim \triangle DEF \Rightarrow \exists \text{(scale factor)}>0 \text{such that} \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} = \text{(scale factor)}
+$$
+
+## Similarity Criteria
+
+### Angle angle
+
+$$
+\angle A = \angle D, \angle B = \angle E \Rightarrow \triangle ABC \sim \triangle DEF
+$$
+
+### Side angle side
+
+$$
+\frac{AB}{DE} = \frac{AC}{DF}, \quad \angle A = \angle D \Rightarrow \triangle ABC \sim \triangle DEF
+$$
+
+### Side side side
+
+$$
+\frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} \Rightarrow \triangle ABC \sim \triangle DEF
+$$
+
+## Scale Factor
+
+$$
+\text{perimeter}(\triangle ABC) = \text{(scale factor)} \cdot \text{perimeter}(\triangle DEF) 
+$$
+
+$$
+\text{area}(\triangle ABC) = \text{(scale factor)}^2 \cdot \text{area}(\triangle DEF)
+$$
+
+### Special Right Triangles
+
+#### 45-45-90 side ratio
+
+$$
+1 : 1 : \sqrt{2}
+$$
+
+#### 30-60-90 side ratio
+
+$$
+1 : \sqrt{3} : 2
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Derivatives
 
@@ -171,12 +249,62 @@ $$
 ## Pythagorean Theorem
 
 $$
-\text{(first leg)}^2 + \text{(second leg)}^2 = \text{(hypotenuse)}^2
+\triangle ABC,\quad
+a = BC, b = AC, c = AB
 $$
 
 $$
-\text{distance between 2 points} = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+a^2 + b^2 = c^2
+\iff
+\angle C = \frac{\pi}{2}
 $$
+
+### Distance between 2 points
+$$
+D = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Geometry — Areas
