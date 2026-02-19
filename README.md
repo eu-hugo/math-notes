@@ -1,9 +1,9 @@
-(Under construction... Still making editorial choices.) 
+(Under construction... still making editorial choices.) 
 
 # Design Principles
  
-- English only if logically necessary.
-- Notation prioritizes explicit description.
+- Minimal English text.
+- Explicit descriptions.
 - ...
   
 ---
@@ -12,7 +12,7 @@
 
 ---
 
-## Table of contents
+## Contents
 
 [Quick Lookup](#quick-lookup)
 
