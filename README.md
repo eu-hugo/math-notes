@@ -2,7 +2,7 @@
 
 # Design Principles
  
-- Minimal English text.
+- Minimal text.
 - Explicit descriptions.
 - ...
   
