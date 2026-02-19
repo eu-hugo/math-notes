@@ -1,11 +1,10 @@
 (Under construction... Still making editorial choices.) 
 
 # Design Principles
-
-- Notation prioritizes clarity and explicit description.
-- Headings h1-h6 and unordered lists for hierarchy.
-- h1-h2 capitalized
-- More math notation, less english
+ 
+- English only if logically necessary.
+- Notation prioritizes explicit description.
+- ...
   
 ---
 
@@ -31,6 +30,60 @@
 
 # Quick Lookup
 
+## Isometries in in $\mathbb{R}^n$
+
+## Rigid Transformations in $\mathbb{R}^2$
+
+$$
+T:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x',y').
+$$
+
+$$
+T \text{ rigid } \iff \|T(x_1,y_1)-T(x_2,y_2)\| = \|(x_1,y_1)-(x_2,y_2)\|
+$$
+
+### Translation
+
+$$
+T_{a,b}:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y) \mapsto(x+a,y+b), \quad a,b\in\mathbb{R}
+$$
+
+### Rotation
+
+$$
+R_\theta:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta),\quad \theta\in\mathbb{R}
+$$
+
+$$
+R_{90^\circ}(x,y)=(-y,x)
+$$
+
+$$
+R_{180^\circ}(x,y)=(-x,-y)
+$$
+
+$$
+R_{270^\circ}(x,y)=(y,-x)
+$$
+
+### Reflection
+
+$$
+S_x:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x,-y)
+$$
+
+$$
+S_y:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(-x,y)
+$$
+
+$$
+S_{y=x}:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(y,x)
+$$
+
+$$
+S_{y=-x}:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(-y,-x)
+$$
+
 ## Times Table
 
 | ×  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
@@ -55,6 +108,8 @@
 | 19 | 57 | 76 | 95 | 114 | 133 | 152 | 171 |    | 209 |    |    |    |    |    |    |    | 361 |    |
 | 20 | 60 | 80 | 100 | 120 | 140 | 160 | 180 |    | 220 |    |    |    |    |    |    |    |    | 400 |
 
+
+
 ## Similar Triangles
 
 $$
@@ -62,24 +117,23 @@ $$
 $$
 
 $$
-\triangle ABC \sim \triangle DEF \Rightarrow \exists \text{(scale factor)}>0 \text{such that} \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} = \text{(scale factor)}
+\triangle ABC \sim \triangle DEF \implies \exists \text{(scale factor)} > 0 \quad \text{such that} \quad \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} = \text{(scale factor)}
 $$
 
-### Criteria
-
-#### AA (angle angle)
+### Angle angle similarity
 
 $$
-\triangle ABC \sim \triangle DEF \iff \left( \angle A = \angle D, \angle B = \angle E \right)
+\triangle ABC \sim \triangle DEF \iff \left( \angle A = \angle D, \quad \angle B = \angle E \right)
 $$
 
-#### SAS (side angle side)
+### Side angle side similarity
 
 $$
-\triangle ABC \sim \triangle DEF \iff \left( \frac{AB}{DE} = \frac{AC}{DF}, \angle A = \angle D \right)
+\triangle ABC \sim \triangle DEF \iff \left( \frac{AB}{DE} = \frac{AC}{DF}, \quad \angle A = \angle D \right)
 $$
 
-#### SSS (side side side)
+### Side side side similarity
+
 $$
 \triangle ABC \sim \triangle DEF \iff \left( \frac{AB}{DE} = \frac{BC}{EF} = \frac{AC}{DF} \right)
 $$
@@ -99,13 +153,13 @@ $$
 ### 45-45-90 side ratio
 
 $$
-1 : 1 : \sqrt{2}
+1 \colon 1 \colon \sqrt{2}
 $$
 
 ### 30-60-90 side ratio
 
 $$
-1 : \sqrt{3} : 2
+1 \colon  \sqrt{3} \colon  2
 $$
 
 
