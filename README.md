@@ -1,6 +1,6 @@
 # my-math-notes
 
-# Contents
+## Contents
 
 [Translation](#translation)
 
