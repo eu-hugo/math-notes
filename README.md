@@ -1,6 +1,8 @@
 # math-notes
 
-**Convention.** Each formula is given as a canonical representative of its equivalence class.
+**Convention.** Each formula is a canonical representative of its equivalence class.
+
+**Notation.** Named quantities are used instead of symbols (e.g., $\text{(radius)}$, $\text{(slope)}$).
 
 <!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
 
