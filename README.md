@@ -16,7 +16,7 @@
 
 [Translation](#translation)
 
-[Rigid Transformations In ℝ](rigid-transformations-in-ℝ)
+[Rigid Transformations In ℝ](rigid-transformations-in-%E2%84%9D)
 
 --
 
@@ -36,7 +36,7 @@
 
 ## Isometries in in $\mathbb{R}^n$
 
-## Rigid Transformations in $\mathbb{R}^2$
+## Rigid Transformations in ℝ
 
 $$
 T:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x',y').
