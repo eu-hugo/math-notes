@@ -1,4 +1,4 @@
-(Under construction...) 
+# my-math-notes
 
 # Contents
 
