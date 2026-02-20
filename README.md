@@ -1,6 +1,10 @@
-# my-math-notes
+# math-notes
 
-## Contents
+**Convention.** Each formula is given as a canonical representative of its equivalence class.
+
+<!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
+
+---
 
 [Translation](#translation)
 
@@ -16,26 +20,19 @@
 
 [Limits](#limits)
 
-
 ---
 
-[Foundations](#part-i-foundations)
+[I Foundations](#part-i-foundations)
 
-[Algebra](#part-ii-algebra)
+[II Algebra](#part-ii-algebra)
 
-[Analysis](#part-iii-analysis)
+[III Analysis](#part-iii-analysis)
 
-[Geometry](#part-iv-geometry)
+[IV Geometry](#part-iv-geometry)
 
-[Discrete Mathematics](#part-v-discrete-mathematics)
+[V Discrete Mathematics](#part-v-discrete-mathematics)
 
-[Applied Mathematics](#part-vi-applied-mathematics)
-
----
-
-**Convention.** Each formula is given as a canonical representative of its equivalence class.
-
-<!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
+[VI Applied Mathematics](#part-vi-applied-mathematics)
 
 ---
 
