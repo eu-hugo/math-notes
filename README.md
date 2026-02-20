@@ -12,13 +12,22 @@
 
 ---
 
-## Contents
+# Contents
 
 [Translation](#translation)
 
-[Rigid Transformations In ℝ](rigid-transformations-in-ℝ)
+[Rigid Transformations](rigid-transformations)
 
---
+[Times Table](times-table)
+
+[Similar Triangles](similar-triangles)
+
+[Derivatives](derivatives)
+
+[Line Equations](line-equations)
+
+
+---
 
 [Foundations](#part-i-foundations)
 
@@ -32,11 +41,7 @@
 
 [Applied Mathematics](#part-vi-applied-mathematics)
 
-# Quick Lookup
-
-## Isometries in in $\mathbb{R}^n$
-
-## Rigid Transformations in ℝ
+## Rigid Transformations
 
 $$
 T:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x',y').
@@ -112,8 +117,6 @@ $$
 | 19 | 57 | 76 | 95 | 114 | 133 | 152 | 171 |    | 209 |    |    |    |    |    |    |    | 361 |    |
 | 20 | 60 | 80 | 100 | 120 | 140 | 160 | 180 |    | 220 |    |    |    |    |    |    |    |    | 400 |
 
-
-
 ## Similar Triangles
 
 $$
@@ -166,28 +169,6 @@ $$
 1 \colon  \sqrt{3} \colon  2
 $$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Derivatives
 
 $$
@@ -230,7 +211,7 @@ $$
 \left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}
 $$
 
-## Equations of a line
+## Line Equations
 
 ### Slope–Intercept Form
   
@@ -321,49 +302,6 @@ $$
 D = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 $$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Geometry — Areas
 
 $$\text{area(triangle)} = \frac12 \cdot \text{base} \cdot \text{height}$$
@@ -451,56 +389,6 @@ $$
 5. 1. $$\text{area(triangle)} = \frac12 bh$$
 2. $$\text{area(circle)} = \pi r^2$$
 3. $$\text{area(rectangle)} = wh$$
-
----
-
-TODO
-
-factoring formulas
-
-radical rules
-
-exponent rules
-
-log rules
-
-quadratic formula
-
-binomial theorem
-
-area
-
-volume
-
-pythagoras theorem
-
-fundamental theorem
-
-trig identities
-
-trig definitions
-
-angle sum
-
-limits
-
-deruvatives
-
-integrals
-
-determinand 2x2
-
-determinant 3x3
-
-inverse 2x2 
-
-taylor series
-
-geometric series
-
-probability density functions
-
----
 
 # Part I Foundations
 
