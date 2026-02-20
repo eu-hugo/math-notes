@@ -1,17 +1,5 @@
 (Under construction...) 
 
-# Editorial notes
- 
-- ...
-
-<!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
-
----
-
-**Convention.** Each formula is given as a canonical representative of its equivalence class.
-
----
-
 # Contents
 
 [Translation](#translation)
@@ -42,6 +30,14 @@
 [Discrete Mathematics](#part-v-discrete-mathematics)
 
 [Applied Mathematics](#part-vi-applied-mathematics)
+
+---
+
+**Convention.** Each formula is given as a canonical representative of its equivalence class.
+
+<!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
+
+---
 
 ## Limits
 
