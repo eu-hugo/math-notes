@@ -26,6 +26,8 @@
 
 [Line Equations](#line-equations)
 
+[Limits](#limits)
+
 
 ---
 
@@ -40,6 +42,58 @@
 [Discrete Mathematics](#part-v-discrete-mathematics)
 
 [Applied Mathematics](#part-vi-applied-mathematics)
+
+## Limits
+
+### $\epsilon - \delta$ definition
+
+$$
+\lim_{x \to a} f(x) = L \iff \forall \epsilon > 0, \exists \delta > 0 \quad \text{such that} \quad 0 \lt |x-a| \lt \delta \implies |f(x)-L| \lt \epsilon
+$$
+
+### Fundamental limits
+
+$$
+\lim_{x\to 0}\frac{\sin x}{x}=1
+$$
+
+$$
+\lim_{x\to 0}\frac{1-\cos x}{x}=0
+$$
+
+$$
+\lim_{x\to 0}\frac{1-\cos x}{x^2}=\frac12
+$$
+
+$$
+\lim_{x\to 0}\frac{\tan x}{x}=1
+$$
+
+$$
+\lim_{x\to 0}\frac{e^x-1}{x}=1
+$$
+
+$$
+\lim_{x\to 0}\frac{\ln(1+x)}{x}=1
+$$
+
+$$
+\lim_{x\to 0}(1+x)^{1/x}=e
+$$
+
+$$
+\lim_{n\to\infty}\left(1+\frac1n\right)^n=e
+$$
+
+$$
+\lim_{x\to\infty}\left(1+\frac{a}{x}\right)^x=e^{a}
+\quad (a\in\mathbb{R})
+$$
+
+$$
+\lim_{x\to 0}\frac{a^x-1}{x}=\ln a
+\quad (a>0)
+$$
 
 ## Rigid Transformations
 
@@ -170,6 +224,14 @@ $$
 $$
 
 ## Derivatives
+
+### Definition (differentiability at a point)
+
+$$
+f'(a) \coloneqq \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
+$$
+
+### Fundamental derivatives
 
 $$
 (x^n)' = n x^{n-1}
