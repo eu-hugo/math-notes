@@ -14,7 +14,11 @@
 
 ## Contents
 
-[Quick Lookup](#quick-lookup)
+[Translation](#translation)
+
+[Rigid Transformations In ℝ](rigid-transformations-in-ℝ)
+
+--
 
 [Foundations](#part-i-foundations)
 
