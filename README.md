@@ -16,7 +16,7 @@
 
 [Translation](#translation)
 
-[Rigid Transformations In ℝ](rigid-transformations-in-%E2%84%9D)
+[Rigid Transformations In ℝ](rigid-transformations-in-ℝ)
 
 --
 
