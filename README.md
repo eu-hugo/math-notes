@@ -1,11 +1,11 @@
-(Under construction... still making editorial choices.) 
+(Under construction...) 
 
-# Design Principles
+# Editorial notes
  
-- Minimal text.
-- Explicit descriptions.
 - ...
-  
+
+<!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
+
 ---
 
 **Convention.** Each formula is given as a canonical representative of its equivalence class.
