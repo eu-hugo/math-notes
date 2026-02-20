@@ -16,15 +16,15 @@
 
 [Translation](#translation)
 
-[Rigid Transformations](rigid-transformations)
+[Rigid Transformations](#rigid-transformations)
 
-[Times Table](times-table)
+[Times Table](#times-table)
 
-[Similar Triangles](similar-triangles)
+[Similar Triangles](#similar-triangles)
 
-[Derivatives](derivatives)
+[Derivatives](#derivatives)
 
-[Line Equations](line-equations)
+[Line Equations](#line-equations)
 
 
 ---
