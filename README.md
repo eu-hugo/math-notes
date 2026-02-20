@@ -41,7 +41,7 @@
 ### $\epsilon - \delta$ definition
 
 $$
-\lim_{x \to a} f(x) = L \iff \forall \epsilon > 0, \exists \delta > 0 \quad \text{such that} \quad 0 \lt |x-a| \lt \delta \implies |f(x)-L| \lt \epsilon
+\lim_{x \to a} f(x) = L \iff \forall \epsilon > 0 \exists \delta > 0 \forall x \in \mathbb{R}, \big(0 < |x-a| < \delta \implies |f(x)-L| < \epsilon\big)
 $$
 
 ### Fundamental limits
