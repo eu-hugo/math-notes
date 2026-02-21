@@ -38,12 +38,49 @@
 
 ---
 
+### Modulus properties
+
+$$
+|x| \geq 0
+$$
+
+$$
+|x| = 0 \iff x = 0
+$$
+
+$$|xy| = |x||y|$$
+
+$$
+\left|\frac{x}{y}\right| = \frac{|x|}{|y|}, \quad y \neq 0
+$$
+
+$$
+|x + y| \leq |x| + |y|
+$$
+
+$$
+|x - y| \geq \big||x| - |y|\big|
+$$
+
+$$
+|x|^2 = x^2
+$$
+
+$$
+|x| = \sqrt{x^2}
+$$
+
+$$|x| < a \iff -a < x < a \quad \text{(e.g., } |x-a| < \delta \iff a-\delta < x < a+\delta\text{)}$$
+
+$$
+|x| > a \iff x > a \text{ or } x < -a
+$$
+
 ## Limits
 
 ### $\epsilon - \delta$ definition
-
 $$
-\lim_{x \to a} f(x) = L \iff \forall \epsilon > 0 \exists \delta > 0 \forall x \in \mathbb{R}, \big(0 < |x-a| < \delta \implies |f(x)-L| < \epsilon\big)
+\lim_{x \to a} f(x) = L \iff \forall \epsilon > 0 \exists \delta > 0 \forall x \in \mathbb{R}, \big(a-\delta < x < a + \delta, x \neq a \implies L-\epsilon < f(x) < L+\epsilon\big)
 $$
 
 ### Fundamental limits
