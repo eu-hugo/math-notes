@@ -6,6 +6,12 @@
 
 <!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
 
+<!--
+- Space around `:`, `\to`, `\mapsto`, `\iff`, `=`, `+`, `-`
+- Space after commas
+- `\quad` for spacing
+-->
+
 ---
 
 [Translation](#translation)
@@ -37,6 +43,60 @@
 [VI Applied Mathematics](#part-vi-applied-mathematics)
 
 ---
+
+
+
+## Rigid Transformations
+
+$$
+T : \mathbb{R}^2 \to \mathbb{R}^2, \quad (x, y) \mapsto (x', y')
+$$
+
+$$
+T \quad \text{is rigid} \iff \| T(x_1, y_1) - T(x_2, y_2) \| = \| (x_1, y_1) - (x_2, y_2) \|
+$$
+
+### Translation
+
+$$
+T_{a,b} : \mathbb{R}^2 \to \mathbb{R}^2, \quad (x, y) \mapsto (x + a, y + b), \quad a, b \in \mathbb{R}
+$$
+
+### Rotation
+
+$$
+R_\theta : \mathbb{R}^2 \to \mathbb{R}^2, \quad (x, y) \mapsto (x \cos\theta - y \sin\theta, x \sin\theta + y \cos\theta), \quad \theta \in \mathbb{R}
+$$
+
+$$
+R_{\frac{\pi}{2}}(x, y) = (-y, x)
+$$
+
+$$
+R_{\pi}(x, y) = (-x, -y)
+$$
+
+$$
+R_{\frac{3\pi}{2}}(x, y) = (y, -x)
+$$
+
+### Reflection
+
+$$
+S_x : \mathbb{R}^2 \to \mathbb{R}^2, \quad (x, y) \mapsto (x, -y)
+$$
+
+$$
+S_y : \mathbb{R}^2 \to \mathbb{R}^2, \quad (x, y) \mapsto (-x, y)
+$$
+
+$$
+S_{y=x} : \mathbb{R}^2 \to \mathbb{R}^2, \quad (x, y) \mapsto (y, x)
+$$
+
+$$
+S_{y=-x} : \mathbb{R}^2 \to \mathbb{R}^2, \quad (x, y) \mapsto (-y, -x)
+$$
 
 ## Modulus properties
 
@@ -127,57 +187,6 @@ $$
 \quad (a>0)
 $$
 
-## Rigid Transformations
-
-$$
-T:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x',y').
-$$
-
-$$
-T \text{ rigid } \iff \|T(x_1,y_1)-T(x_2,y_2)\| = \|(x_1,y_1)-(x_2,y_2)\|
-$$
-
-### Translation
-
-$$
-T_{a,b}:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y) \mapsto(x+a,y+b), \quad a,b\in\mathbb{R}
-$$
-
-### Rotation
-
-$$
-R_\theta:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x\cos\theta-y\sin\theta,x\sin\theta+y\cos\theta),\quad \theta\in\mathbb{R}
-$$
-
-$$
-R_{90^\circ}(x,y)=(-y,x)
-$$
-
-$$
-R_{180^\circ}(x,y)=(-x,-y)
-$$
-
-$$
-R_{270^\circ}(x,y)=(y,-x)
-$$
-
-### Reflection
-
-$$
-S_x:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(x,-y)
-$$
-
-$$
-S_y:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(-x,y)
-$$
-
-$$
-S_{y=x}:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(y,x)
-$$
-
-$$
-S_{y=-x}:\mathbb{R}^2\to\mathbb{R}^2,\quad (x,y)\mapsto(-y,-x)
-$$
 
 ## Times Table
 
