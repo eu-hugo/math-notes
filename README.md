@@ -38,7 +38,7 @@
 
 ---
 
-### Modulus properties
+## Modulus properties
 
 $$
 |x| \geq 0
