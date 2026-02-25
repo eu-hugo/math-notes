@@ -44,6 +44,179 @@
 
 ---
 
+## Areas
+
+$$
+\begin{aligned}
+\text{trapezoid} &: \frac{1}{2} \cdot (\text{base}_1 + \text{base}_2) \cdot \text{height} \\
+\text{parallelogram} &: \text{base} \cdot \text{height} \\
+\text{rectangle} &: \text{length} \cdot \text{width} \\
+\text{square} &: \text{side}^2 \\
+\text{triangle} &: \frac{1}{2} \cdot \text{base} \cdot \text{height} \\
+\text{circle} &: \pi \cdot \text{radius}^2
+\end{aligned}
+$$
+
+## Perimeters
+
+$$
+\begin{aligned}
+\text{rectangle} &: 2 \cdot (\text{length} + \text{width}) \\
+\text{square} &: 4 \cdot \text{side} \\
+\text{triangle} &: \text{(side)}_1 + \text{(side)}_2 + \text{(side)}_3 \\
+\text{circle} &: 2\pi \cdot \text{radius}
+\end{aligned}
+$$
+
+## Volumes
+
+$$
+\begin{aligned}
+\text{rectangular prism} &: \text{length} \cdot \text{width} \cdot \text{height} \\
+\text{cube} &: \text{side}^3 \\
+\text{cylinder} &: \pi \cdot \text{radius}^2 \cdot \text{height} \\
+\text{cone} &: \frac{1}{3}\pi \cdot \text{radius}^2 \cdot \text{height} \\
+\text{pyramid} &: \frac{1}{3} \cdot \text{base area} \cdot \text{height} \\
+\text{sphere} &: \frac{4}{3}\pi \cdot \text{radius}^3
+\end{aligned}
+$$
+
+## Surface Areas
+
+$$
+\begin{aligned}
+\text{rectangular prism} &: 2(\text{length} \cdot \text{width} + \text{length} \cdot \text{height} + \text{width} \cdot \text{height}) \\
+\text{cube} &: 6 \cdot \text{side}^2 \\
+\text{cylinder} &: 2\pi \cdot \text{radius}^2 + 2\pi \cdot \text{radius} \cdot \text{height} \\
+\text{sphere} &: 4\pi \cdot \text{radius}^2 \\
+\text{cone} &: \pi \cdot \text{radius}^2 + \pi \cdot \text{radius} \cdot \text{slant height}
+\end{aligned}
+$$
+
+## Cubes
+
+$$
+\text{volume(cube)} = \text{side}^3
+$$
+
+$$
+\text{face diagonal(cube)} = \text{side} \cdot \sqrt{2}
+$$
+
+$$
+\text{space diagonal(cube)} = \text{side} \cdot \sqrt{3}
+$$
+
+## Triangles
+
+### Definition (triangle). 
+
+$$
+\{(a, b, c) \in (\mathbb{R}^+)^3 \mid a + b > c,\ b + c > a,\ a + c > b\}
+$$
+
+### Classification 
+
+#### Scalene
+
+$$
+a \neq b \neq c \neq a
+$$
+
+#### Isosceles
+
+$$
+a = b \neq c
+$$
+
+#### Equilateral
+
+$$
+a = b = c
+$$
+
+#### Acute
+
+$$
+A < \frac{\pi}{2},\ B < \frac{\pi}{2},\ C < \frac{\pi}{2}
+$$
+
+#### Right
+
+$$
+a^2 + b^2 = c^2
+$$
+
+#### Obtuse
+
+$$
+\exists \angle > \frac{\pi}{2}
+$$
+
+### Areas
+
+$$
+\text{area(triangle)} = \frac{1}{2} \cdot \text{base} \cdot \text{height}
+$$
+
+$$
+\text{area(isosceles triangle)} = \frac{c}{4}\sqrt{4a^2 - c^2}
+$$
+
+$$
+\text{area(equilateral triangle)} = \frac{\sqrt{3}}{4} \cdot \text{side}^2
+$$
+
+## Derivatives
+
+### Definition (differentiability at a point). 
+
+$$ 
+f'(a) \coloneqq \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
+$$
+
+### Fundamental derivatives
+
+$$
+(x^n)' = n x^{n-1}
+$$
+
+$$
+(\sin x)' = \cos x
+$$
+
+$$
+(\cos x)' = -\sin x
+$$
+
+$$
+(\tan x)' = \sec^2 x
+$$
+
+$$
+(e^x)' = e^x
+$$
+
+$$
+(\ln x)' = \frac{1}{x}
+$$
+
+$$
+(a^x)' = a^x \ln a
+$$
+
+$$
+(\sqrt{x})' = \frac{1}{2\sqrt{x}}
+$$
+
+$$
+(uv)' = u'v + uv'
+$$
+
+$$
+\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}
+$$
+
 
 
 ## Rigid Transformations
@@ -264,56 +437,6 @@ $$
 1 \colon  \sqrt{3} \colon  2
 $$
 
-## Derivatives
-
-### Definition (differentiability at a point)
-
-$$
-f'(a) \coloneqq \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
-$$
-
-### Fundamental derivatives
-
-$$
-(x^n)' = n x^{n-1}
-$$
-
-$$
-(\sin x)' = \cos x
-$$
-
-$$
-(\cos x)' = -\sin x
-$$
-
-$$
-(\tan x)' = \sec^2 x
-$$
-
-$$
-(e^x)' = e^x
-$$
-
-$$
-(\ln x)' = \frac{1}{x}
-$$
-
-$$
-(a^x)' = a^x \ln a
-$$
-
-$$
-(\sqrt{x})' = \frac{1}{2\sqrt{x}}
-$$
-
-$$
-(uv)' = u'v + uv'
-$$
-
-$$
-\left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2}
-$$
-
 ## Line Equations
 
 ### Slope–Intercept Form
@@ -460,16 +583,6 @@ $$
 \end{aligned}
 $$
 
-## Volume
-
-$$
-\begin{aligned}
-\text{cube} &: s^3 \\
-\text{cylinder} &: \pi r^2 h \\
-\text{sphere} &: \frac{4}{3}\pi r^3 \\
-\text{pyramid} &: \frac13 \cdot \text{base area} \cdot h
-\end{aligned}
-$$
 
 ## Exponent Laws
 
