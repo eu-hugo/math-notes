@@ -63,7 +63,7 @@ $$
 \begin{aligned}
 \text{rectangle} &: 2 \cdot (\text{length} + \text{width}) \\
 \text{square} &: 4 \cdot \text{side} \\
-\text{triangle} &: \text{(side)}_1 + \text{(side)}_2 + \text{(side)}_3 \\
+\text{triangle} &: \text{side}_1 + \text{side}_2 + \text{side}_3 \\
 \text{circle} &: 2\pi \cdot \text{radius}
 \end{aligned}
 $$
@@ -75,9 +75,9 @@ $$
 \text{rectangular prism} &: \text{length} \cdot \text{width} \cdot \text{height} \\
 \text{cube} &: \text{side}^3 \\
 \text{cylinder} &: \pi \cdot \text{radius}^2 \cdot \text{height} \\
-\text{cone} &: \frac{1}{3}\pi \cdot \text{radius}^2 \cdot \text{height} \\
+\text{cone} &: \frac{1}{3} \cdot \pi \cdot \text{radius}^2 \cdot \text{height} \\
 \text{pyramid} &: \frac{1}{3} \cdot \text{base area} \cdot \text{height} \\
-\text{sphere} &: \frac{4}{3}\pi \cdot \text{radius}^3
+\text{sphere} &: \frac{4}{3} \cdot \pi \cdot \text{radius}^3
 \end{aligned}
 $$
 
@@ -85,7 +85,7 @@ $$
 
 $$
 \begin{aligned}
-\text{rectangular prism} &: 2(\text{length} \cdot \text{width} + \text{length} \cdot \text{height} + \text{width} \cdot \text{height}) \\
+\text{rectangular prism} &: 2 \cdot (\text{length} \cdot \text{width} + \text{length} \cdot \text{height} + \text{width} \cdot \text{height}) \\
 \text{cube} &: 6 \cdot \text{side}^2 \\
 \text{cylinder} &: 2\pi \cdot \text{radius}^2 + 2\pi \cdot \text{radius} \cdot \text{height} \\
 \text{sphere} &: 4\pi \cdot \text{radius}^2 \\
@@ -109,48 +109,52 @@ $$
 
 ## Triangles
 
-### Definition (triangle). 
+**Definition** (triangle).
 
 $$
 \{(a, b, c) \in (\mathbb{R}^+)^3 \mid a + b > c,\ b + c > a,\ a + c > b\}
 $$
 
-### Classification 
+### Classification
 
-#### Scalene
+#### Sides
+
+##### Scalene
 
 $$
 a \neq b \neq c \neq a
 $$
 
-#### Isosceles
+##### Isosceles
 
 $$
 a = b \neq c
 $$
 
-#### Equilateral
+##### Equilateral
 
 $$
 a = b = c
 $$
 
-#### Acute
+#### Angles
+
+##### Acute
 
 $$
 A < \frac{\pi}{2},\ B < \frac{\pi}{2},\ C < \frac{\pi}{2}
 $$
 
-#### Right
+##### Right
 
 $$
 a^2 + b^2 = c^2
 $$
 
-#### Obtuse
+##### Obtuse
 
 $$
-\exists \angle > \frac{\pi}{2}
+\exists\, \angle > \frac{\pi}{2}
 $$
 
 ### Areas
@@ -160,7 +164,7 @@ $$
 $$
 
 $$
-\text{area(isosceles triangle)} = \frac{c}{4}\sqrt{4a^2 - c^2}
+\text{area(isosceles triangle)} = \frac{\text{base}}{4} \cdot \sqrt{4 \cdot \text{leg}^2 - \text{base}^2}
 $$
 
 $$
@@ -169,10 +173,10 @@ $$
 
 ## Derivatives
 
-### Definition (differentiability at a point). 
+**Definition** (differentiability at a point).
 
-$$ 
-f'(a) \coloneqq \lim_{h\to 0}\frac{f(a+h)-f(a)}{h}
+$$
+f'(a) \coloneqq \lim_{h \to 0} \frac{f(a + h) - f(a)}{h}
 $$
 
 ### Fundamental derivatives
@@ -416,11 +420,11 @@ $$
 ### Scale Factor
 
 $$
-\text{perimeter}(\triangle ABC) = \text{(scale factor)} \cdot \text{perimeter}(\triangle DEF) 
+\text{perimeter}(\triangle ABC) = \text{(scale factor)}  \text{perimeter}(\triangle DEF) 
 $$
 
 $$
-\text{area}(\triangle ABC) = \text{(scale factor)}^2 \cdot \text{area}(\triangle DEF)
+\text{area}(\triangle ABC) = \text{(scale factor)}^2  \text{area}(\triangle DEF)
 $$
 
 ## Special Right Triangles
@@ -530,15 +534,15 @@ $$
 
 ## Geometry — Areas
 
-$$\text{area(triangle)} = \frac12 \cdot \text{base} \cdot \text{height}$$
+$$\text{area(triangle)} = \frac12  \text{base}  \text{height}$$
 
-$$\text{area(circle)} = \pi \cdot \text{radius}^2$$
+$$\text{area(circle)} = \pi  \text{radius}^2$$
 
 $$
 \begin{aligned}
-\text{area(triangle)} &= \frac12 \cdot \text{base} \cdot \text{height} \\
-\text{area(circle)} &= \pi \cdot \text{radius}^2 \\
-\text{area(rectangle)} &= \text{width} \cdot \text{height}
+\text{area(triangle)} &= \frac12  \text{base}  \text{height} \\
+\text{area(circle)} &= \pi  \text{radius}^2 \\
+\text{area(rectangle)} &= \text{width}  \text{height}
 \end{aligned}
 $$
 
@@ -547,9 +551,9 @@ $$
 
 $$
 \begin{aligned}
-\text{area}(\text{triangle}) &= \frac12 \cdot \text{base} \cdot \text{height} \\
-\text{area}(\text{circle}) &= \pi \cdot \text{radius}^2 \\
-\text{area}(\text{rectangle}) &= \text{width} \cdot \text{height}
+\text{area}(\text{triangle}) &= \frac12  \text{base}  \text{height} \\
+\text{area}(\text{circle}) &= \pi  \text{radius}^2 \\
+\text{area}(\text{rectangle}) &= \text{width}  \text{height}
 \end{aligned}
 $$
 
@@ -565,7 +569,7 @@ $$\text{volume}(\text{sphere}) = \frac{4}{3}\pi r^3$$
 
 $$
 \begin{aligned}
-a^m \cdot a^n &= a^{m+n} \\
+a^m  a^n &= a^{m+n} \\
 \frac{a^m}{a^n} &= a^{m-n} \\
 (a^m)^n &= a^{mn} \\
 (ab)^n &= a^n b^n \\
@@ -577,7 +581,7 @@ $$
 
 $$
 \begin{aligned}
-(1)\quad a^m \cdot a^n &= a^{m+n} \\
+(1)\quad a^m  a^n &= a^{m+n} \\
 (2)\quad \frac{a^m}{a^n} &= a^{m-n} \\
 (3)\quad (a^m)^n &= a^{mn}
 \end{aligned}
@@ -586,7 +590,7 @@ $$
 
 ## Exponent Laws
 
-1. $$a^m \cdot a^n = a^{m+n}$$
+1. $$a^m  a^n = a^{m+n}$$
 2. $$\frac{a^m}{a^n} = a^{m-n}$$
 3. $$(a^m)^n = a^{mn}$$
 
