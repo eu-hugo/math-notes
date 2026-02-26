@@ -2,7 +2,7 @@
 
 **Convention.** Each formula is a canonical representative of its equivalence class.
 
-**Notation.** Named quantities are used instead of symbols (e.g., $\text{(radius)}$, $\text{(slope)}$).
+**Notation.** Formula parameters are written as named quantities ($\text{radius}$, $\text{height}$); elsewhere standard variables apply.
 
 <!-- Use semantic LaTeX commands instead of literal or Unicode symbols -->
 
@@ -117,50 +117,46 @@ $$
 
 ### Classification
 
-#### Sides
-
-##### Scalene
+#### Scalene
 
 $$
 a \neq b \neq c \neq a
 $$
 
-##### Isosceles
+#### Isosceles
 
 $$
 a = b \neq c
 $$
 
-##### Equilateral
+#### Equilateral
 
 $$
 a = b = c
 $$
 
-#### Angles
-
-##### Acute
+#### Acute
 
 $$
 A < \frac{\pi}{2},\ B < \frac{\pi}{2},\ C < \frac{\pi}{2}
 $$
 
-##### Right
+#### Right
 
 $$
 a^2 + b^2 = c^2
 $$
 
-##### Obtuse
+#### Obtuse
 
 $$
-\exists\, \angle > \frac{\pi}{2}
+\exists \angle > \frac{\pi}{2}
 $$
 
-### Areas
+### Area
 
 $$
-\text{area(triangle)} = \frac{1}{2} \cdot \text{base} \cdot \text{height}
+\frac{1}{2} \cdot \text{base} \cdot \text{height}
 $$
 
 $$
@@ -532,39 +528,6 @@ $$
 D = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 $$
 
-## Geometry — Areas
-
-$$\text{area(triangle)} = \frac12  \text{base}  \text{height}$$
-
-$$\text{area(circle)} = \pi  \text{radius}^2$$
-
-$$
-\begin{aligned}
-\text{area(triangle)} &= \frac12  \text{base}  \text{height} \\
-\text{area(circle)} &= \pi  \text{radius}^2 \\
-\text{area(rectangle)} &= \text{width}  \text{height}
-\end{aligned}
-$$
-
-
-## Geometry — Areas
-
-$$
-\begin{aligned}
-\text{area}(\text{triangle}) &= \frac12  \text{base}  \text{height} \\
-\text{area}(\text{circle}) &= \pi  \text{radius}^2 \\
-\text{area}(\text{rectangle}) &= \text{width}  \text{height}
-\end{aligned}
-$$
-
-## Volumes
-
-$$\text{volume}(\text{cube}) = s^3$$
-
-$$\text{volume}(\text{cylinder}) = \pi r^2 h$$
-
-$$\text{volume}(\text{sphere}) = \frac{4}{3}\pi r^3$$
-
 ## Exponent Laws
 
 $$
@@ -576,23 +539,6 @@ a^m  a^n &= a^{m+n} \\
 \left(\frac{a}{b}\right)^n &= \frac{a^n}{b^n}
 \end{aligned}
 $$
-
-## Exponent Laws
-
-$$
-\begin{aligned}
-(1)\quad a^m  a^n &= a^{m+n} \\
-(2)\quad \frac{a^m}{a^n} &= a^{m-n} \\
-(3)\quad (a^m)^n &= a^{mn}
-\end{aligned}
-$$
-
-
-## Exponent Laws
-
-1. $$a^m  a^n = a^{m+n}$$
-2. $$\frac{a^m}{a^n} = a^{m-n}$$
-3. $$(a^m)^n = a^{mn}$$
 
 ## Vector Space Axioms
 
