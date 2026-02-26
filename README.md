@@ -1,3 +1,5 @@
+(Personal notebook. Under construction...)
+
 # math-notes
 
 **Convention.** Each formula is a canonical representative of its equivalence class.
