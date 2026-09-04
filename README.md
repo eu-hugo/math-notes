@@ -2326,13 +2326,31 @@ $$
 
 ## Mathematical Finance
 
+#### Rule of 72
+
+**Notation.**
+
+$$
+P : \text{principal}, \quad r : \text{interest rate (decimal)}, \quad R \coloneqq 100r : \text{rate as a percentage}
+$$
+
+$$
+t : \text{time}, \quad A(t) : \text{accumulated amount at time } t
+$$
+
+**Definition (Continuous compounding).**
+
+$$
+A(t) \coloneqq P e^{rt}
+$$
+
 **Definition (Doubling time).**
 
 $$
 t_d \in \mathbb{R}^+ : A(t_d) = 2P
 $$
 
-**Proposition (Exact doubling time).**
+**Proposition (Exact continuous doubling time).**
 
 $$
 P e^{rt_d} = 2P \implies t_d = \frac{\ln 2}{r}
@@ -2341,10 +2359,12 @@ $$
 **Theorem (Rule of 72).**
 
 $$
-t_d = \frac{100 \ln 2}{R} \approx \frac{69.3}{R} \approx \frac{72}{R}, \quad R \coloneqq 100r
+t_d \approx \frac{72}{R}
 $$
 
-**Remark.** $69.3$ is approximated to the highly composite number $72$ to yield integer quotients for integer values of $R$.
+**Remark.** $t_d = \frac{100 \ln 2}{R} \approx \frac{69.3}{R}$ $69.3$ is adjusted to the highly composite $72$ to yield integer quotients for common rates (e.g., 2, 3, 4, 6, 8, 12).
+
+**Remark (Discrete compounding).** $A(t) = P(1+r)^t \implies t_d = \frac{\ln 2}{\ln(1+r)}$. By Taylor expansion, $\ln(1+r) \approx r$ for small $r$, reducing to $t_d \approx \frac{\ln 2}{r}$.
 
 # Appendix
 
