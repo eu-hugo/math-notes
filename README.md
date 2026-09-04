@@ -302,10 +302,10 @@ spaces in code for `:`, `\to`, `\mapsto`, `\iff`, `=`, `+`, `-`, ",", etc; use `
 ### Trigonometric Functions
 ### Inverse Trigonometric Functions
 ### Trigonometric Identities and Equations
-#### Pythagorean Formulas
-#### Sum and Difference Formulas
-#### Double-Angle Formulas
-#### Half-Angle Formulas
+#### Pythagorean Identities
+#### Sum and Difference Identities
+#### Double-Angle Identities
+#### Half-Angle Identities
 ### Spherical Trigonometry
 
 ## Multivariable and Vector Calculus
