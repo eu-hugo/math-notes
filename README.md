@@ -360,6 +360,21 @@ spaces in code for `:`, `\to`, `\mapsto`, `\iff`, `=`, `+`, `-`, ",", etc; use `
 ### Statistical Mechanics and General Relativity
 ### Fluid Dynamics and Navier-Stokes Equations
 
+## Mathematical Finance
+### Time value of money
+#### Simple and Compound Interest, Present and Future Value
+#### Annuities, Perpetuities, and Amortization
+#### Heuristics and Approximations (Rule of 72, Rule of 69.3)
+### Portfolio Theory
+#### Markowitz Mean-Variance Optimization and the Efficient Frontier.
+#### Capital Asset Pricing Model (CAPM) and Arbitrage Pricing Theory.
+### Quantitative Finance and Derivatives
+#### Black-Scholes-Merton Model, Option Pricing, and the Greeks.
+#### Binomial Trees, Hedging, and Risk-Neutral Valuation.
+### Risk and Actuarial Mathematics
+#### Value at Risk (VaR), Expected Shortfall, and Credit Risk Models.
+#### Life Contingencies, Survival Models, and Mortality Tables.
+
 ---
 
 ## Sequences and Series
